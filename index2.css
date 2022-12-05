@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    margin: 44px 0px 144px 76px ;
+    cursor: pointer;
+}
+
+.link1{
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #989D9C;
+margin-right: 23px;
+cursor: pointer;
+}
+
+.link1:hover{
+color: #555756;
+}
+
+img{
+display: inline-block;
+width: 568px;
+height: 500px;
+margin-left: 125px;
+
+}
+
+section{
+display: inline-block;
+}
+
+.bheader{
+background: #665AE1;
+border-radius: 20.5px;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #f0efef;
+width: 130px;
+height: 41px;
+border: none;
+cursor: pointer;
+}
+
+.bheader:hover{
+    background-color: #3b2be4;
+    color: antiquewhite;
+}
+
+h1{
+    font-weight: 900;
+font-size: 100px;
+line-height: 122px;
+color: #515151;
+
+}
+
+h3{
+    font-weight: 500;
+font-size: 58px;
+line-height: 71px;
+color: #515151;
+margin-bottom: 32px;
+}
+
+p{
+    font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #848484;
+width: 515px;
+margin-bottom: 65px;
+}
+
+.button{
+background: #ADFF00;
+border-radius: 33px;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+color: #000000;
+cursor: pointer;
+width: 239px;
+height: 64px;
+border: none;
+}
+
+.button:hover{
+    background-color: #c8fa5c;
+    color: #515151;
+}
+
+.boxtext{
+    margin-left: 86px;
+}
+
+@media screen and (max-width:805px){
+   *{
+    margin: 0;
+    padding: 0;
+   }
+   
+   .container{
+    width: 100vw;
+    height: 100vh;
+   }
+
+   header{
+    display: none;
+   }
+
+   p{
+    display: none;
+   }
+
+   img{
+    width: 354px;
+    height: 317px;
+    margin-top: 149px;
+    margin-right: 22px;
+    position: relative;
+    right: 30px;
+   }
+   
+   h1{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    color: #515151;
+    margin-left: 64px;
+    text-align: center;
+   }
+
+   h3{
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 37px;
+   color: #515151;
+   width: 232px;
+   margin-left: 64px;
+   text-align: center;
+   }
+
+   button{
+    margin-left: 62px;
+   }
+}
